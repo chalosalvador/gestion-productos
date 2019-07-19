@@ -6,5 +6,7 @@ fos_user:
     address: "chalosalvador@gmail.com"
     sender_name: "Chalo Salvador"
   registration:
+    form:
+      type: App\Form\RegistrationType
     confirmation:
       enabled: true
