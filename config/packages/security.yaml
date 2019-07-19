@@ -20,6 +20,8 @@ security:
             form_login:
                 provider: fos_userbundle
                 csrf_token_generator: security.csrf.token_manager
+                login_path: /iniciar-sesion
+                default_target_path:  /perfil
 
             logout:       true
             anonymous:    true
